@@ -17,5 +17,5 @@ document.getElementById("clear").onclick = clearForm;
 
 function clearForm() {
   document.getElementById("farenheit").value = "";
-  document.getElementById("celsius").value = "";
+  document.getElementById("celcius").value = "";
 }
