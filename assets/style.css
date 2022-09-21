@@ -1,16 +1,27 @@
+/* header text styling */
 #header {
   color: black;
   text-align: center;
   padding: 2px;
-};
+}
 
+/* fahrenheit form styling */
 #f-form {
- background-color: aquamarine;
- border-radius: 12px;
- position: absolute;
-};
+  background-color: aquamarine;
+  border-radius: 12px;
+  position: absolute;
+}
 
+/* celsius form styling */
 #celsius-form {
-  position: relative;
+  position: absolute;
   border-radius: 12;
-};
+}
+
+/* convert button styling */
+#convert {
+}
+
+/* clear button styling */
+#clear {
+}
