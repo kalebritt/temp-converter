@@ -1,9 +1,17 @@
-.header {
+#header {
   margin-left: auto;
   margin-right: auto;
   border: 2px solid black;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 body {
   background-color: lightblue;
 }
+
+/* #convert {
+}
+
+#clear {
+
+} */
