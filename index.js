@@ -5,20 +5,20 @@ document.getElementById("convert").onclick = tempConvert();
 document.getElementById("clear").onclick = clearForm();
 
 function tempConvert() {
-  var farenheit = document.getElementById("farenheit").value;
-  var celcius = document.getElementById("celcius").value;
+  var fahrenheit = document.getElementById("fahrenheit").value;
+  var celsius = document.getElementById("celsius").value;
 
-  if (farenheit != "") {
-    celcius = (parseFloat(farenheit) - 32) / 1.8;
+  if (fahrenheit != "") {
+    celsius = (parseFloat(fahrenheit) - 32) / 1.8;
   } else {
-    farenheit = parseFloat(celcius) * 1.8 + 32;
+    fahrenheit = parseFloat(celsius) * 1.8 + 32;
   }
 
-  document.getElementById("farenheit").value = parseFloat(farenheit).toFixed(1);
-  document.getElementById("celcius").value = parseFloat(celcius).toFixed(1);
+  document.getElementById("fahrenheit").value = parseFloat(fahrenheit).toFixed(1);
+  document.getElementById("celsius").value = parseFloat(celsius).toFixed(1);
 }
 
 function clearForm() {
-  document.getElementById("farenheit").value = "";
-  document.getElementById("celcius").value = "";
+  document.getElementById("fahrenheit").value = "";
+  document.getElementById("celsius").value = "";
 }
