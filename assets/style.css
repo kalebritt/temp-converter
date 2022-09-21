@@ -4,12 +4,13 @@
   padding: 2px;
 };
 
-#fahrenheit {
+#f-form {
  background-color: aquamarine;
  border-radius: 12px;
- position: relative;
+ position: absolute;
 };
 
-#celsius {
-  position: fixed;
-}
+#celsius-form {
+  position: relative;
+  border-radius: 12;
+};
