@@ -1,9 +1,10 @@
 console.log("hello");
-//convert temp button and function
+//tempConvert button
+document.getElementById("convert").onclick = tempConvert;
+//clearForm button
+document.getElementById("clear").onclick = clearForm;
 
-document.getElementById("convert").onclick = tempConvert();
-document.getElementById("clear").onclick = clearForm();
-
+//tempConvert function
 function tempConvert() {
   var fahrenheit = document.getElementById("fahrenheit").value;
   var celsius = document.getElementById("celsius").value;
@@ -14,10 +15,12 @@ function tempConvert() {
     fahrenheit = parseFloat(celsius) * 1.8 + 32;
   }
 
-  document.getElementById("fahrenheit").value = parseFloat(fahrenheit).toFixed(1);
+  document.getElementById("fahrenheit").value =
+    parseFloat(fahrenheit).toFixed(1);
   document.getElementById("celsius").value = parseFloat(celsius).toFixed(1);
 }
 
+//clearForm function
 function clearForm() {
   document.getElementById("fahrenheit").value = "";
   document.getElementById("celsius").value = "";
