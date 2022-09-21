@@ -1,8 +1,8 @@
 console.log("hello");
 //convert temp button and function
 
-document.getElementById("convert").onclick === tempConvert();
-document.getElementById("clear") === clearForm();
+document.getElementById("convert").onclick = tempConvert();
+document.getElementById("clear").onclick = clearForm();
 
 function tempConvert() {
   var farenheit = document.getElementById("farenheit").value;
