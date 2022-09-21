@@ -23,4 +23,5 @@ function clearForm() {
     document.getElementById('farenheit').value = '';
     document.getElementById('celcius').value = '';
     
+    
 };
