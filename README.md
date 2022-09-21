@@ -1,5 +1,5 @@
 # temp-converter
-[Convert Some Temps!](https://kalebritt.github.io/temp-converter/)
+[Convert Some Temps!](https://kalebritt.github.io/temp-converter)
 
 ## Description
 Travelling? Confused about metric vs. american?  Confused in general?  I thought so!  If you simply cannot figure out why it is a good idea to wear shorts and a t-shirt in 23 degree Celsius weather, try out this simple temperature converter!  It will convert those pesky nonsensical Celsius degrees into degrees Fahrenheit, relieving your troubled brain of of any attempt to justify foreign policies you don't understand.  Also, this app will convert Fahrenheit into Celsius for all your visiting friends who may wish to 'convert' themselves!
@@ -19,10 +19,10 @@ Below is a screenshot of the deployed app.
 
 
 # Credits
-My thanks to Collin P. and his other-wordly knowledge without which I'd undoubtedly still be working on this app.
+Many thanks to CodePen for the help in functions!
 
 # License
 
 
 # Installation 
-'npm i' is a good place to start!
+None, be 
