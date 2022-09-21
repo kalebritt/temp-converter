@@ -1,8 +1,15 @@
 #header {
   color: black;
   text-align: center;
+  padding: 2px;
 };
 
-body {
-  background-color: aqua;
+#fahrenheit {
+ background-color: aquamarine;
+ border-radius: 12px;
+ position: relative;
 };
+
+#celsius {
+  position: fixed;
+}
