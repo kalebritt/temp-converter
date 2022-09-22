@@ -14,14 +14,11 @@
 
 /* celsius form styling */
 #celsius-form {
-  position: absolute;
+  position: relative;
   border-radius: 12;
 }
 
 /* convert button styling */
-#convert {
-}
+
 
 /* clear button styling */
-#clear {
-}
